@@ -1,0 +1,44 @@
+{
+    "phase": "2 \u2014 Processed Dataset Validation",
+    "elapsed_s": 978.7,
+    "yaml_errors": [],
+    "splits": [
+        {
+            "split": "train",
+            "image_count": 23287,
+            "label_count": 20030,
+            "images_no_label": 3257,
+            "orphan_labels": [],
+            "images_failed": 0,
+            "labels_failed": 0,
+            "total_annotations": 55073,
+            "image_errors": [],
+            "label_errors": []
+        },
+        {
+            "split": "valid",
+            "image_count": 2523,
+            "label_count": 2523,
+            "images_no_label": 0,
+            "orphan_labels": [],
+            "images_failed": 0,
+            "labels_failed": 0,
+            "total_annotations": 9502,
+            "image_errors": [],
+            "label_errors": []
+        },
+        {
+            "split": "test",
+            "image_count": 251,
+            "label_count": 251,
+            "images_no_label": 0,
+            "orphan_labels": [],
+            "images_failed": 0,
+            "labels_failed": 0,
+            "total_annotations": 864,
+            "image_errors": [],
+            "label_errors": []
+        }
+    ],
+    "overall_pass": true
+}

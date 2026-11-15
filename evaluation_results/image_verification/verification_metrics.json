@@ -1,0 +1,161 @@
+{
+  "hardware": {
+    "os": "Windows-11-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "physical_cores": 14,
+    "logical_cores": 20,
+    "ram_gb": 15.73,
+    "pytorch_version": "2.15.0+cpu",
+    "cuda_available": false,
+    "device_used": "cpu"
+  },
+  "results": [
+    {
+      "key": "thermal_01_parking_lot",
+      "name": "Thermal Image 1: FLIR FC-Series SPS Parking Lot",
+      "source_file": "media_1794594968087_907cde47.webp",
+      "modality": "LWIR Thermal (Uncooled Microbolometer)",
+      "dimensions": "900x550",
+      "gt_count": 1,
+      "pred_count_conf25": 1,
+      "pred_count_conf15": 1,
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "mean_iou": 0.9659,
+      "mean_latency_ms": 38.02,
+      "std_latency_ms": 10.04,
+      "predictions_25": [
+        {
+          "x1": 464.06866455078125,
+          "y1": 226.3102569580078,
+          "x2": 554.6177978515625,
+          "y2": 393.9285583496094,
+          "confidence": 0.7194086313247681,
+          "class_id": 0,
+          "class_name": "person"
+        }
+      ],
+      "annotated_path": "E:\\CV_Project\\evaluation_results\\image_verification\\thermal_01_parking_lot_verified.jpg"
+    },
+    {
+      "key": "thermal_02_winter_crosswalk",
+      "name": "Thermal Image 2: FLIR Radiometric Winter Crosswalk Crowd",
+      "source_file": "media_1794594968129_034d6b9b.jpg",
+      "modality": "LWIR Thermal (Radiometric Ironbow, -20.3C to 17.2C)",
+      "dimensions": "640x480",
+      "gt_count": 8,
+      "pred_count_conf25": 4,
+      "pred_count_conf15": 10,
+      "true_positives": 4,
+      "false_positives": 0,
+      "false_negatives": 4,
+      "precision": 1.0,
+      "recall": 0.5,
+      "mean_iou": 0.8473,
+      "mean_latency_ms": 38.51,
+      "std_latency_ms": 1.44,
+      "predictions_25": [
+        {
+          "x1": 194.29490661621094,
+          "y1": 81.82546997070312,
+          "x2": 223.97496032714844,
+          "y2": 160.6183319091797,
+          "confidence": 0.7237110733985901,
+          "class_id": 0,
+          "class_name": "person"
+        },
+        {
+          "x1": 126.3543930053711,
+          "y1": 117.34011840820312,
+          "x2": 192.66500854492188,
+          "y2": 306.3889465332031,
+          "confidence": 0.6966444849967957,
+          "class_id": 0,
+          "class_name": "person"
+        },
+        {
+          "x1": 30.5787353515625,
+          "y1": 71.1345443725586,
+          "x2": 71.18929290771484,
+          "y2": 201.24569702148438,
+          "confidence": 0.592788815498352,
+          "class_id": 0,
+          "class_name": "person"
+        },
+        {
+          "x1": 245.9250946044922,
+          "y1": 148.47299194335938,
+          "x2": 327.29998779296875,
+          "y2": 354.5988464355469,
+          "confidence": 0.41712960600852966,
+          "class_id": 0,
+          "class_name": "person"
+        }
+      ],
+      "annotated_path": "E:\\CV_Project\\evaluation_results\\image_verification\\thermal_02_winter_crosswalk_verified.jpg"
+    },
+    {
+      "key": "thermal_03_automotive_fir",
+      "name": "Thermal Image 3: Automotive Far-Infrared (FIR) Night Vision Panel",
+      "source_file": "media_1794598536358_16bc4685.jpg [Top Panel rows 0:370]",
+      "modality": "FIR Thermal (Automotive uncooled 8-14 um)",
+      "dimensions": "688x370",
+      "gt_count": 1,
+      "pred_count_conf25": 1,
+      "pred_count_conf15": 1,
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "mean_iou": 0.8608,
+      "mean_latency_ms": 32.74,
+      "std_latency_ms": 1.56,
+      "predictions_25": [
+        {
+          "x1": 612.3930053710938,
+          "y1": 168.410888671875,
+          "x2": 659.855712890625,
+          "y2": 308.9061584472656,
+          "confidence": 0.7372197508811951,
+          "class_id": 0,
+          "class_name": "person"
+        }
+      ],
+      "annotated_path": "E:\\CV_Project\\evaluation_results\\image_verification\\thermal_03_automotive_fir_verified.jpg"
+    },
+    {
+      "key": "thermal_04_traffic_sensor",
+      "name": "Thermal Image 4: Smart City Thermal Traffic Sensor Crosswalk",
+      "source_file": "media_1794598536328_e6f019d6.jpg",
+      "modality": "LWIR Thermal (Overhead Traffic Sensor)",
+      "dimensions": "640x480",
+      "gt_count": 1,
+      "pred_count_conf25": 1,
+      "pred_count_conf15": 1,
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "mean_iou": 0.8604,
+      "mean_latency_ms": 41.06,
+      "std_latency_ms": 2.27,
+      "predictions_25": [
+        {
+          "x1": 398.3043212890625,
+          "y1": 217.7852783203125,
+          "x2": 460.93499755859375,
+          "y2": 387.74371337890625,
+          "confidence": 0.7278472185134888,
+          "class_id": 0,
+          "class_name": "person"
+        }
+      ],
+      "annotated_path": "E:\\CV_Project\\evaluation_results\\image_verification\\thermal_04_traffic_sensor_verified.jpg"
+    }
+  ]
+}

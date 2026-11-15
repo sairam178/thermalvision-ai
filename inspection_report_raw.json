@@ -1,0 +1,12 @@
+{
+    "root_dir": "E:\\CV_Project\\data\\raw",
+    "exists": true,
+    "image_files_count": 0,
+    "annotation_files_count": 0,
+    "detected_annotation_format": "unknown",
+    "image_stats": {},
+    "annotation_stats": {},
+    "integrity_warnings": [
+        "No image files found in directory tree."
+    ]
+}
