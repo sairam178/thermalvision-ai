@@ -11,13 +11,6 @@ ThermalVision AI is a high-performance computer vision and operational intellige
 
 ---
 
-## 🚀 Live Application URLs
-
-- **Web Dashboard**: [http://localhost:8000](http://localhost:8000)
-- **API Documentation (Swagger UI)**: [http://localhost:8000/docs](http://localhost:8000/docs)
-- **Interactive OpenAPI Specification**: [http://localhost:8000/openapi.json](http://localhost:8000/openapi.json)
-- **GitHub Repository**: [https://github.com/sairam178/thermalvision-ai](https://github.com/sairam178/thermalvision-ai)
-
 ---
 
 ## 🌟 Key Capabilities & Workflows
